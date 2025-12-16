@@ -1,0 +1,220 @@
+.cw-station-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cw-station-thq-navbar-interactive-elm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: var(--dl-layout-space-threeunits);
+  padding-right: var(--dl-layout-space-threeunits);
+  padding-bottom: var(--dl-layout-space-twounits);
+  justify-content: space-between;
+}
+ 
+.cw-station-navlink1 {
+  display: contents;
+}
+ 
+.cw-station-image {
+  height: 2rem;
+  text-decoration: none;
+}
+ 
+.cw-station-thq-desktop-menu-elm {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.cw-station-thq-links-elm1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.cw-station-navlink2 {
+  text-decoration: none;
+}
+ 
+.cw-station-thq-burger-menu-elm {
+  display: none;
+}
+ 
+.cw-station-icon10 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+  text-decoration: none;
+}
+ 
+.cw-station-thq-mobile-menu-elm {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+ 
+.cw-station-thq-nav-elm {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cw-station-thq-top-elm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-threeunits);
+  justify-content: space-between;
+}
+ 
+.cw-station-thq-logo-elm {
+  height: 2rem;
+}
+ 
+.cw-station-thq-close-menu-elm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.cw-station-icon12 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.cw-station-thq-links-elm2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cw-station-navlink4 {
+  margin-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+}
+ 
+.cw-station-navlink5 {
+  text-decoration: none;
+}
+ 
+.cw-station-thq-buttons-elm {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  margin-top: var(--dl-layout-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.cw-station-icon14 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.cw-station-icon16 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.cw-station-icon18 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.cw-station-container3 {
+  display: contents;
+}
+ 
+.cw-station-link {
+  display: contents;
+}
+ 
+.cw-station-container4 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.cw-station-icon20 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.cw-station-text {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+ 
+@media(max-width: 767px) {
+  .cw-station-thq-navbar-interactive-elm {
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+  }
+  .cw-station-thq-burger-menu-elm {
+    align-items: center;
+    justify-content: center;
+  }
+  .cw-station-navlink4 {
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+}
+ 
+@media(max-width: 479px) {
+  .cw-station-thq-navbar-interactive-elm {
+    width: 479px;
+    height: 75px;
+    padding: var(--dl-layout-space-unit);
+  }
+  .cw-station-image {
+    width: 74px;
+    height: 71px;
+  }
+  .cw-station-thq-desktop-menu-elm {
+    display: none;
+  }
+  .cw-station-thq-burger-menu-elm {
+    display: flex;
+  }
+  .cw-station-thq-mobile-menu-elm {
+    padding: 16px;
+  }
+  .cw-station-navlink4 {
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+}
